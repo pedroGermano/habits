@@ -38,6 +38,14 @@ button {
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: background .2s ease-in-out;
+}
+
+header button:hover{
+  background: #fff;
+  color: #8B5CF6;
+  cursor: pointer;
+
 }
 
 #form-habits {
